@@ -7,5 +7,5 @@ app.listen(PORT, () => {
 })
 
 app.get("/", (req, res) => {
-    res.send({ ok: true })
+    res.send({ ok: false })
 }) 
